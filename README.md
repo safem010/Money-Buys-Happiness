@@ -27,7 +27,7 @@ Install all required Python packages by running:
 ```bash
 pip install -r requirements.txt
 
-
+```
 The main.py file serves as the entry point for this project. It offers three modes of operation:
 
 Train the Model: Trains a new model on the provided dataset.
