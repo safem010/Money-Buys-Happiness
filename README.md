@@ -1,29 +1,32 @@
-Money-Buys-Happiness
-  An advanced machine learning project for predicting stock options prices using a Transformer-LSTM hybrid model. The project preprocesses financial data, engineers relevant features, trains a model on historical data, and evaluates its performance. The project is built with PyTorch and includes modules for data processing, feature engineering, training, and evaluation.
+# Money-Buys-Happiness
+An *advanced machine learning project* for predicting stock options prices using a Transformer-LSTM hybrid model. The project preprocesses financial data, engineers relevant features, trains a model on historical data, and evaluates its performance. The project is built with PyTorch and includes modules for data processing, feature engineering, training, and evaluation.
 
-Table of Contents
-  Project Overview
-  Directory Structure
-  Getting Started
-  Usage
-  Configuration
-  Feature Engineering
-  Model Architecture
-  Evaluation Metrics
-  Results
-  Contributing
-  License
+## Table of Contents
+- **Project Overview**
+- **Directory Structure**
+- **Getting Started**
+- **Usage**
+- **Configuration**
+- **Feature Engineering**
+- **Model Architecture**
+- **Evaluation Metrics**
+- **Results**
+- **Contributing**
+- **License**
 
-Project Overview
-  This project aims to predict option prices by leveraging a Transformer-LSTM model on engineered financial data. It takes advantage of historical data, lagged features, rolling statistics, and technical indicators to enhance model accuracy. This tool can be used for financial analysis, backtesting, and predictive analytics.
+## Project Overview
+This project aims to predict option prices by leveraging a Transformer-LSTM model on engineered financial data. It takes advantage of historical data, lagged features, rolling statistics, and technical indicators to enhance model accuracy. This tool can be used for financial analysis, backtesting, and predictive analytics.
 
-Getting Started
-  Prerequisites
-  Python 3.7+
-  PyTorch
+## Getting Started
+
+### Prerequisites
+- *Python 3.7+*
+- *PyTorch*
 
 Install all required Python packages by running:
-  pip install -r requirements.txt
+```bash
+pip install -r requirements.txt
+
 
 The main.py file serves as the entry point for this project. It offers three modes of operation:
 
