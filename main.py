@@ -1,13 +1,13 @@
 import torch
 import torch.nn as nn
-from data_processing.data_loader import load_data, clean_data, create_sequences, split_data
-from data_processing.feature_engineering import FeatureEngineer
-from data_processing.dataset import SequenceDataset
-from model.model import TransformerLSTMModel
-from model.train import TrainPipeline, CheckpointHandler
+from data_loader import load_data, clean_data, create_sequences, split_data
+from feature_engineering import FeatureEngineer
+from dataset import SequenceDataset
+from model import TransformerLSTMModel
+from train import TrainPipeline, CheckpointHandler
 
 # Define file path and constants for configuration
-DATA_PATH = "data_processing/data.xlsx"
+DATA_PATH = "data.xlsx"
 SEQUENCE_LENGTH = 30
 TRAIN_RATIO = 0.7
 CHECKPOINT_PATH = "saved_model_checkpoint.pth"
