@@ -30,18 +30,20 @@ pip install -r requirements.txt
 ```
 
 ## usage
+```
 The main.py file serves as the entry point for this project. It offers three modes of operation:
 
 *Train the Model: Trains a new model on the provided dataset.*
-  ``` Select "1" when prompted.
-```
+  Select "1" when prompted.
+
 *Load a Pre-trained Model: Loads a saved model checkpoint for further evaluation or inference.*
-  ```Select "2" when prompted.
-```
+  Select "2" when prompted.
+
 *Evaluate the Model: Evaluates the model on the test set using metrics and plots.*
-  ```Select "3" when prompted.
+  Select "3" when prompted.
 ```
 ## Configurtions (adjustable parameters)
+```
   DATA_PATH: Path to the data file.
   SEQUENCE_LENGTH: Number of time steps in each sequence.
   TRAIN_RATIO: Proportion of data used for training.
@@ -54,7 +56,7 @@ The main.py file serves as the entry point for this project. It offers three mod
   TRANSFORMER_LAYERS: Number of Transformer encoder layers.
   MAX_FEATURES: Maximum number of features after feature engineering.  
 
-
+```
 ## Feature Engineering
 The feature_engineering.py module adds critical features to improve model accuracy:
   Lagged Features: Adds lagged values for historical dependencies.
