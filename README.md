@@ -59,9 +59,9 @@ The main.py file serves as the entry point for this project. It offers three mod
 ```
 ## Feature Engineering
 The feature_engineering.py module adds critical features to improve model accuracy:
-  Lagged Features: Adds lagged values for historical dependencies.
-  Rolling Statistics: Adds moving averages and standard deviations to capture trends and volatility.
-  Technical Indicators: Adds common indicators like RSI, MACD, and Bollinger Bands. If the data provides RSI, then RSI will not be used from here.
+  - Lagged Features: Adds lagged values for historical dependencies.
+  - Rolling Statistics: Adds moving averages and standard deviations to capture trends and volatility.
+  - Technical Indicators: Adds common indicators like RSI, MACD, and Bollinger Bands. If the data provides RSI, then RSI will not be used from here.
 
 
 ## Model Architecture
@@ -70,11 +70,11 @@ The feature_engineering.py module adds critical features to improve model accura
 Evaluation Metrics
   The following metrics are computed in evaluate.py to measure model performance:
   
-  MSE (Mean Squared Error)
-  MAE (Mean Absolute Error)
-  R2 Score (Coefficient of Determination)
-  MAPE (Mean Absolute Percentage Error)
-  MSLE (Mean Squared Logarithmic Error)
+ - MSE (Mean Squared Error)
+  - MAE (Mean Absolute Error)
+  - R2 Score (Coefficient of Determination)
+  - MAPE (Mean Absolute Percentage Error)
+  - MSLE (Mean Squared Logarithmic Error)
 
 
 ## Prediction Visualization
